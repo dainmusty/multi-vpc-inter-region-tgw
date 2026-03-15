@@ -6,9 +6,13 @@ The architecture enables **centralized, secure connectivity between VPCs across 
 
 ---
 
-# Architecture Overview
+# Architecture Diagram
 
-The platform implements a **hub-and-spoke network architecture** where Transit Gateways act as centralized routing hubs connecting multiple VPCs.
+![Transit Gateway Multi Region Architecture](project-design/Inter-region-TGW-peering_with_devops_iam_s3_RAM.png)
+
+The diagram illustrates a **hub-and-spoke architecture** where Transit Gateways connect multiple VPCs across regions using inter-region peering. This enables centralized routing, simplified network management, and scalable multi-region connectivity.
+
+---
 
 Key components include:
 
